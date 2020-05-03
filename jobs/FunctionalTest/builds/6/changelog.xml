@@ -1,0 +1,11 @@
+commit 08d41f7df7264db04b7c4a525896355048dfaf0e
+tree 5662771bf125e62be00870d436823908e19219af
+parent fb6635968b4da21cb51cd91a1d03b030daa144e1
+author clecio <clecio.antao@gmail.com> 2020-04-29 12:12:12 -0300
+committer clecio <clecio.antao@gmail.com> 2020-04-29 12:12:12 -0300
+
+    volta do teste chrome
+
+
+:100644 100644 af37c30bdf2fe9e56aa1be0ee37a8771700c7225 0c48310ad71526d36a061abe7e2e03acddc1c228 M	src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java
+:100644 100644 37b78dc9526d557a1b206ca3429e2bee724a7922 21f54633315a5a3e62a1b5650e23fa8ca9529ced M	target/test-classes/br/ce/wcaquino/tasks/functional/TasksTest.class

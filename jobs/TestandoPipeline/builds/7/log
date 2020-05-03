@@ -1,0 +1,157 @@
+Started by user [8mha:////4FHCZrbY86kmrO38llJbrl1wMls+PgNYdWOxp5kWtJotAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile from git https://github.com/clecioantao/tasks-backend
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4FIi0vARMWq4thxcAu7u+9V+di8l3irVaPtaPZNJ6oBQAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Dp+Bq10PHNjom0B7Rbn83ULBpDSDE4kmt4JZAEowAgzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4J3a+c7s4AqI9c3lbFda1dGXC5z1DseVErO8HENUU1RwAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/TestandoPipeline
+[8mha:////4ODTSXulxgxGEWZyaq0+UC0qFh2ccwNjnJT9rDCAui8NAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4GAMZ0oivqpAduGVHZ8cIaLSJGmQPwVAjZitzuwarfBKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4GtBUYrsmMPEC4v9MbyHlEMTUn15NgDW2XwRHURMraeyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4LUJrYACHwIlRHrsUt64irKaiQjoQJAAMb5Tl5GdWtkMAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/clecioantao/tasks-backend
+ > git init /var/lib/jenkins/workspace/TestandoPipeline # timeout=10
+Fetching upstream changes from https://github.com/clecioantao/tasks-backend
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/clecioantao/tasks-backend +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/clecioantao/tasks-backend # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/clecioantao/tasks-backend # timeout=10
+Fetching upstream changes from https://github.com/clecioantao/tasks-backend
+ > git fetch --tags --progress -- https://github.com/clecioantao/tasks-backend +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bcbfe57f414ff8161e2efa3c7d648260eb0f22e5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bcbfe57f414ff8161e2efa3c7d648260eb0f22e5 # timeout=10
+Commit message: "ajustes jenkinsfile 6"
+First time build. Skipping changelog.
+[8mha:////4DolxGB1swp+wVnmHtPzv6C7YCA7b/Acsy9FgdFWqKg6AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4LYzVBMrdpX7c/gp1uH1LwVCkY/r878h77K8Gn/zLGQ2AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Lt2F6hkff59lPIU4WwdYMZ25RSOSQUC+BnuO6fYVihpAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4AUnTvm/kj92fCGdxUDGfQxHjPXUea6e2jwrA2fgGq+kAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4MXBH1OWJwpYc+emQQzVdcP5nANPJ9+lyoXGHBtgcCwfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4MyOI5fotGcho4M5QN8POJPpfSejtQlNNLAAczwVF+b3AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4DxzQUEdHRPTpaFllEM6xxT7eyjj/ukR9vJwGpMrex60AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4MU7l2Quel4qXDDHKURdTOZdScLOzcgEcbAPCFCHbYtgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4EKPeYVb+GjB7wxSkdfVT8NkGNGDD31FTRvoRr8ElJxPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4BxMp0ZQ26HJyPUM5klYMXOGYzMnLfcfSuqRDf3xE4y2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4Lq0eBEy6TB3x8lAX0/d4bI8uP4M/qUbFDti0Er043W5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4IjK4TWXWM0zCV6LpcfKhA43N6kVjNEHl8Cy0R0UJCXeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4D5NdkwgKVXeq1t9wT/EkhXpWNvhn69e9+BUw8boTqUTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4AnIPukIXzQ3i8gR+LQkfhC5CXnz4PDt648R3NajglvIAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Build)
+[8mha:////4MyxVLqmdtscb3rklPxFJ2VsVz6vU096K5J8do5p3y3KAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] tool
+[8mha:////4CPDPw3kMrkglOHeI+45bDu4/Nc00X0+iJoJhUK1wOLxAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4NrVh7HbfYMEROXGDNYLOMCrB84BTfXWbgzQC9d3qaiWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] withEnv
+[8mha:////4JQcrNOPSpY3rN7rVpyCCVQE9AhRrvIanMVC1FAXbX1OAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4CAvd4wIMCbS75kYbYDNO4dipDqIbnt0rSJ33iN2ANjeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] git
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jglick/simple-maven-project-with-tests.git # timeout=10
+Fetching upstream changes from https://github.com/jglick/simple-maven-project-with-tests.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/jglick/simple-maven-project-with-tests.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b3a39b21ac048d9298986e0d4a1d9f4dd185df8f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b3a39b21ac048d9298986e0d4a1d9f4dd185df8f # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master b3a39b21ac048d9298986e0d4a1d9f4dd185df8f # timeout=10
+Commit message: "Merge pull request #13 from jglick/Jenkinsfile"
+First time build. Skipping changelog.
+[8mha:////4Krd6QxoggQY5HoAM8YaoUQoJfw+jndyDJxAqf1hJJc4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] sh
++ mvn -Dmaven.test.failure.ignore=true clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< test:simple-maven-project-with-tests >----------------
+[INFO] Building simple-maven-project-with-tests 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.pom
+Progress (1): 2.2/5.7 kBProgress (1): 5.0/5.7 kBProgress (1): 5.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.pom (5.7 kB at 3.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.jar
+Progress (1): 2.2/37 kBProgress (1): 5.0/37 kBProgress (1): 7.7/37 kBProgress (1): 10/37 kB Progress (1): 13/37 kBProgress (1): 16/37 kBProgress (1): 19/37 kBProgress (1): 21/37 kBProgress (1): 24/37 kBProgress (1): 27/37 kBProgress (1): 30/37 kBProgress (1): 32/37 kBProgress (1): 35/37 kBProgress (1): 37 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.jar (37 kB at 83 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom
+Progress (1): 2.2/2.3 kBProgress (1): 2.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom (2.3 kB at 7.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar
+Progress (1): 2.8/245 kBProgress (1): 5.5/245 kBProgress (1): 8.3/245 kBProgress (1): 11/245 kB Progress (1): 14/245 kBProgress (1): 16/245 kBProgress (1): 19/245 kBProgress (1): 22/245 kBProgress (1): 25/245 kBProgress (1): 27/245 kBProgress (1): 30/245 kBProgress (1): 33/245 kBProgress (1): 37/245 kBProgress (1): 41/245 kBProgress (1): 45/245 kBProgress (1): 49/245 kBProgress (1): 53/245 kBProgress (1): 57/245 kBProgress (1): 61/245 kBProgress (1): 66/245 kBProgress (1): 70/245 kBProgress (1): 74/245 kBProgress (1): 78/245 kBProgress (1): 82/245 kBProgress (1): 86/245 kBProgress (1): 90/245 kBProgress (1): 94/245 kBProgress (1): 98/245 kBProgress (1): 102/245 kBProgress (1): 106/245 kBProgress (1): 111/245 kBProgress (1): 115/245 kBProgress (1): 119/245 kBProgress (1): 123/245 kBProgress (1): 127/245 kBProgress (1): 131/245 kBProgress (1): 135/245 kBProgress (1): 139/245 kBProgress (1): 143/245 kBProgress (1): 147/245 kBProgress (1): 152/245 kBProgress (1): 156/245 kBProgress (1): 160/245 kBProgress (1): 164/245 kBProgress (1): 168/245 kBProgress (1): 172/245 kBProgress (1): 176/245 kBProgress (1): 180/245 kBProgress (1): 184/245 kBProgress (1): 188/245 kBProgress (1): 193/245 kBProgress (1): 197/245 kBProgress (1): 201/245 kBProgress (1): 205/245 kBProgress (1): 209/245 kBProgress (1): 213/245 kBProgress (1): 217/245 kBProgress (1): 221/245 kBProgress (1): 225/245 kBProgress (1): 229/245 kBProgress (1): 233/245 kBProgress (1): 238/245 kBProgress (1): 242/245 kBProgress (1): 245 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar (245 kB at 393 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ simple-maven-project-with-tests ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ simple-maven-project-with-tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/TestandoPipeline/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ simple-maven-project-with-tests ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ simple-maven-project-with-tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/TestandoPipeline/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ simple-maven-project-with-tests ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /var/lib/jenkins/workspace/TestandoPipeline/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ simple-maven-project-with-tests ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.pom
+Progress (1): 2.2/6.3 kBProgress (1): 5.0/6.3 kBProgress (1): 6.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.pom (6.3 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.pom
+Progress (1): 2.2/2.3 kBProgress (1): 2.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.pom (2.3 kB at 7.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.pom
+Progress (1): 2.2/2.9 kBProgress (1): 2.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.pom (2.9 kB at 9.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.jar
+Progress (1): 2.2/274 kBProgress (1): 5.0/274 kBProgress (1): 7.7/274 kBProgress (1): 10/274 kB Progress (1): 13/274 kBProgress (1): 16/274 kBProgress (1): 19/274 kBProgress (1): 21/274 kBProgress (1): 24/274 kBProgress (1): 27/274 kBProgress (1): 30/274 kBProgress (1): 32/274 kBProgress (1): 36/274 kBProgress (1): 40/274 kBProgress (1): 45/274 kBProgress (1): 49/274 kBProgress (1): 53/274 kBProgress (1): 57/274 kBProgress (1): 61/274 kBProgress (1): 65/274 kBProgress (1): 69/274 kBProgress (1): 73/274 kBProgress (1): 77/274 kBProgress (1): 81/274 kBProgress (1): 85/274 kBProgress (1): 90/274 kBProgress (1): 94/274 kBProgress (1): 98/274 kBProgress (1): 102/274 kBProgress (1): 106/274 kBProgress (1): 110/274 kBProgress (1): 114/274 kBProgress (1): 118/274 kBProgress (1): 122/274 kBProgress (1): 126/274 kBProgress (1): 131/274 kBProgress (1): 135/274 kBProgress (1): 139/274 kBProgress (1): 143/274 kBProgress (1): 147/274 kBProgress (1): 151/274 kBProgress (1): 155/274 kBProgress (1): 159/274 kBProgress (1): 163/274 kBProgress (1): 167/274 kBProgress (1): 171/274 kBProgress (1): 176/274 kBProgress (1): 180/274 kBProgress (1): 184/274 kBProgress (1): 188/274 kBProgress (1): 192/274 kBProgress (1): 196/274 kBProgress (1): 200/274 kBProgress (1): 204/274 kBProgress (1): 208/274 kBProgress (1): 212/274 kBProgress (1): 217/274 kBProgress (1): 221/274 kBProgress (1): 225/274 kBProgress (1): 229/274 kBProgress (1): 233/274 kBProgress (1): 237/274 kBProgress (1): 241/274 kBProgress (1): 245/274 kBProgress (1): 249/274 kBProgress (1): 253/274 kBProgress (1): 258/274 kBProgress (1): 262/274 kBProgress (1): 266/274 kBProgress (1): 270/274 kBProgress (1): 274/274 kBProgress (1): 274 kB    Progress (2): 274 kB | 2.2/40 kBProgress (2): 274 kB | 5.0/40 kBProgress (2): 274 kB | 7.7/40 kBProgress (2): 274 kB | 10/40 kB Progress (2): 274 kB | 13/40 kBProgress (3): 274 kB | 13/40 kB | 2.2/148 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.jar (274 kB at 545 kB/s)
+Progress (2): 13/40 kB | 5.0/148 kBProgress (2): 13/40 kB | 7.8/148 kBProgress (2): 13/40 kB | 11/148 kB Progress (2): 13/40 kB | 13/148 kBProgress (2): 16/40 kB | 13/148 kBProgress (2): 19/40 kB | 13/148 kBProgress (2): 21/40 kB | 13/148 kBProgress (2): 24/40 kB | 13/148 kBProgress (2): 27/40 kB | 13/148 kBProgress (2): 30/40 kB | 13/148 kBProgress (2): 32/40 kB | 13/148 kBProgress (2): 35/40 kB | 13/148 kBProgress (2): 38/40 kB | 13/148 kBProgress (2): 40 kB | 13/148 kB   Progress (2): 40 kB | 16/148 kBProgress (2): 40 kB | 19/148 kBProgress (2): 40 kB | 21/148 kBProgress (2): 40 kB | 24/148 kBProgress (2): 40 kB | 27/148 kBProgress (2): 40 kB | 30/148 kBProgress (2): 40 kB | 32/148 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.jar (40 kB at 50 kB/s)
+Progress (1): 36/148 kBProgress (1): 40/148 kBProgress (1): 45/148 kBProgress (1): 49/148 kBProgress (1): 53/148 kBProgress (1): 57/148 kBProgress (1): 61/148 kBProgress (1): 65/148 kBProgress (1): 69/148 kBProgress (1): 73/148 kBProgress (1): 77/148 kBProgress (1): 81/148 kBProgress (1): 86/148 kBProgress (1): 90/148 kBProgress (1): 94/148 kBProgress (1): 98/148 kBProgress (1): 102/148 kBProgress (1): 106/148 kBProgress (1): 110/148 kBProgress (1): 114/148 kBProgress (1): 118/148 kBProgress (1): 122/148 kBProgress (1): 126/148 kBProgress (1): 131/148 kBProgress (1): 135/148 kBProgress (1): 139/148 kBProgress (1): 143/148 kBProgress (1): 147/148 kBProgress (1): 148 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.jar (148 kB at 129 kB/s)
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/TestandoPipeline/target/surefire-reports
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.pom
+Progress (1): 2.2/2.5 kBProgress (1): 2.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.pom (2.5 kB at 8.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.18.1/surefire-providers-2.18.1.pom
+Progress (1): 2.2/2.5 kBProgress (1): 2.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.18.1/surefire-providers-2.18.1.pom (2.5 kB at 8.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.jar
+Progress (1): 2.2/68 kBProgress (1): 5.0/68 kBProgress (1): 7.7/68 kBProgress (1): 10/68 kB Progress (1): 13/68 kBProgress (1): 16/68 kBProgress (1): 19/68 kBProgress (1): 21/68 kBProgress (1): 24/68 kBProgress (1): 27/68 kBProgress (1): 30/68 kBProgress (1): 32/68 kBProgress (1): 36/68 kBProgress (1): 40/68 kBProgress (1): 45/68 kBProgress (1): 49/68 kBProgress (1): 53/68 kBProgress (1): 57/68 kBProgress (1): 61/68 kBProgress (1): 65/68 kBProgress (1): 68 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.jar (68 kB at 209 kB/s)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running test.OtherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in test.OtherTest
+Running test.SomeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in test.SomeTest
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ simple-maven-project-with-tests ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /var/lib/jenkins/workspace/TestandoPipeline/target/simple-maven-project-with-tests-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.739 s
+[INFO] Finished at: 2020-05-01T15:34:19-03:00
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4Ot2MuViX7JGEKE3jeIQIVJc1dUpoQ0PdxOrnPBoEiBNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGkKHc7j61D2+GdwK3vgAAAA==[0m[Pipeline] junit
+Recording test results
+[8mha:////4HZgO3sUSst9UCqE1gvqdBV2LW/ZsX7Kf9xgbqomj6YGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q3HRhmuvgAAAA==[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4Bcdn9j5JCDS+b0ElB7i8cXCe1T9BIZDzBhqrR/dvlpZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHcETLavgAAAA==[0m[Pipeline] }
+[8mha:////4Ba40nUiGdsTIVhsIpMLoqzDDCuKEAR6X+DLl5vbsWGPAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIjPh1KRWu54QQmMcaJtRtsB6fiRFyNO2ARiYopRvOmea83LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHv8mlmvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4MMIvfZs/MYYPDPU4mwxdMbS1enHKUQQOzDr05P5x+kHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzUuer9B850l5C+AAAA[0m[Pipeline] }
+[8mha:////4Pj3pIInowQPsrr4slctYnV9YQIxjq6wMxKbzEUc3oksAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKzrXIf9B/2XzCy+AAAA[0m[Pipeline] // stage
+[8mha:////4AeIDMhmB0Gw+lW0EJXfrGdRc57TseEygF8D2MexMz2xAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8iTDhjvgAAAA==[0m[Pipeline] }
+[8mha:////4HhLh9WJVP9m6I28ne99IKSt9plG9c175FpTCKXBWCF+AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDEa9j374AAAA=[0m[Pipeline] // withEnv
+[8mha:////4PuCSm/MFjCfAqHOWQWv9Ooh5Hmc4uoHjsFqiER/H0TuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiCIkGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w8bZSsgvgAAAA==[0m[Pipeline] }
+[8mha:////4Mna/NZq5BrEVkMUlPTyCt7qwz6nT9BER93C5dI25oAsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICoqBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w8ohnCcvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4EkAxLlS/bzPHUBPO2Pn7P4YFmDO2pjr0Unn0ouwc5pCAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AE/B/a+9AAAA[0m[Pipeline] }
+[8mha:////4DAUuP6ZnuF+G1+3z5JfrwrfFD53CcQR8ATBUt6ldB9fAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUVI5jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAXH35DL0AAAA=[0m[Pipeline] // node
+[8mha:////4Lq7iHNeP7jgjRCrBG9J6uO5JR5F74bTuRKI8RYGYuGqAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBAx/ra70AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

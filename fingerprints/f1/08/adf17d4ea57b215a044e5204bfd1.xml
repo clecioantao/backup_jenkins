@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-20 10:22:16.176 UTC</timestamp>
+  <md5sum>f108adf17d4ea57b215a044e5204bfd1</md5sum>
+  <fileName>org.apache.tomcat.embed:tomcat-embed-el-9.0.30.jar</fileName>
+  <usages>
+    <entry>
+      <string>DeployBack</string>
+      <ranges>1-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

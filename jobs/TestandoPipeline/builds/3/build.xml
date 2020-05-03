@@ -1,0 +1,77 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.39">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.16">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>502</queueId>
+  <timestamp>1588357704034</timestamp>
+  <startTime>1588357704036</startTime>
+  <result>FAILURE</result>
+  <duration>3241</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node{
+  stage (&apos;Build&apos;) {
+
+    withMaven(
+        // Maven installation declared in the Jenkins &quot;Global Tool Configuration&quot;
+        maven: &apos;maven-3&apos;,
+        // Maven settings.xml file defined with the Jenkins Config File Provider Plugin
+        // We recommend to define Maven settings.xml globally at the folder level using 
+        // navigating to the folder configuration in the section &quot;Pipeline Maven Configuration / Override global Maven configuration&quot;
+        // or globally to the entire master navigating to  &quot;Manage Jenkins / Global Tools Configuration&quot;
+        mavenSettingsConfig: &apos;my-maven-settings&apos;) {
+
+      // Run the maven build
+      sh &quot;mvn clean verify&quot;
+
+    } // withMaven will discover the generated Maven artifacts, JUnit Surefire &amp; FailSafe &amp; FindBugs &amp; SpotBugs reports...
+  }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>37580376</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>9832260</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>115558072</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>25713752</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>13520645</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>13</iota>
+    <head>1:13</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

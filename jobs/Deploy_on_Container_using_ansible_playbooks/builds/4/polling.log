@@ -1,0 +1,10 @@
+Started on Apr 18, 2020 7:35:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 5d0c387ef5eea8713ec0afc603e5ac621c668434 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/clecioantao/hello-world.git # timeout=10
+Found 1 remote heads on https://github.com/clecioantao/hello-world.git
+[poll] Latest remote head revision on refs/heads/master is: 2d99685ae456b0e69f392f078f0b1bfc2ca09d56
+Done. Took 2.5 sec
+Changes found

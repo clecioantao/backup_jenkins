@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-05-01 19:28:06.640 UTC</timestamp>
+  <md5sum>d712352ad2e5eee3d70baada2c3b22d2</md5sum>
+  <fileName>Credential id=github_login name=clecioantao/****** (Login Github)</fileName>
+  <usages>
+    <entry>
+      <string>TestandoPipeline</string>
+      <ranges>10-14,16,20-25,27-35,37-43,46-47,49,51-52</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

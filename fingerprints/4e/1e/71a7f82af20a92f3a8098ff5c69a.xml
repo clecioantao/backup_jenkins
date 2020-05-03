@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-18 10:13:01.492 UTC</timestamp>
+  <original>
+    <name>Deploy_on_Container_using_ansible_playbooks/com.example.maven-project:server</name>
+    <number>2</number>
+  </original>
+  <md5sum>4e1e71a7f82af20a92f3a8098ff5c69a</md5sum>
+  <fileName>com.example.maven-project:server.jar</fileName>
+  <usages>
+    <entry>
+      <string>Deploy_on_Container_using_ansible_playbooks/com.example.maven-project:server</string>
+      <ranges>2</ranges>
+    </entry>
+    <entry>
+      <string>Deploy_on_Container_using_ansible_playbooks</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

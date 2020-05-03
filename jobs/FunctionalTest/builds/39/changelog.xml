@@ -1,0 +1,11 @@
+commit d3392f6ce7a03ec679822cf7910f72e5864f7247
+tree be980e89a3de48d04775697f16e6c1c86da33943
+parent 4080f06e7b7121dcda8e7e4ea6c14ada91b49620
+author clecio <clecio.antao@gmail.com> 2020-05-01 06:51:26 -0300
+committer clecio <clecio.antao@gmail.com> 2020-05-01 06:51:26 -0300
+
+    Correção suprimindo Sucsses 2
+
+
+:100644 100644 ba51fa6a54ceab09a2dae7d9d56979a940595835 0f58a1ab58bfb1b225f195ebee567960b599f193 M	src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java
+:100644 100644 4f3d712b3b86d6b0e6992a50cda489c8190b2789 78ba6d591fae0d8a6823a26706884c17855d1ec0 M	target/test-classes/br/ce/wcaquino/tasks/functional/TasksTest.class

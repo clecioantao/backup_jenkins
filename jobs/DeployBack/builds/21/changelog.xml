@@ -1,0 +1,9 @@
+commit a424500accf0edb70b5412b6df2edd4cc420176f
+tree 244ea1740922efd6856ccb5781b87408a6e2fa4a
+parent 05f161b8ceffe57944429f7a7a521d1310630c3a
+author Clecio Antao <clecio.antao@gmail.com> 2020-05-01 07:00:31 -0300
+committer GitHub <noreply@github.com> 2020-05-01 07:00:31 -0300
+
+    Update application.properties
+
+:100644 100644 176b13ed1b301f5a03ce1e5ef55e74afd0073b30 c271b5668457b7633bb54d06a6b3ec836326a92a M	src/main/resources/application.properties

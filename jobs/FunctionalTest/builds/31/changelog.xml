@@ -1,0 +1,11 @@
+commit 39f56b0da54a3b7d61a395b78d51670957ffaedd
+tree 0c1e39c0c79874652c8e7540cb8fbfcd600ae538
+parent 5a65230d10bc13731dc4d7c5f1ff427ac00c3bb1
+author clecio <clecio.antao@gmail.com> 2020-04-30 21:40:36 -0300
+committer clecio <clecio.antao@gmail.com> 2020-04-30 21:40:36 -0300
+
+    grid com docker
+
+
+:100644 100644 71c7d34f9e861f7cb19c11aed38ce7aa5d7c14f6 2ee4d10bda672b3f7e04946a125c979de6174533 M	src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java
+:100644 100644 9d9be19a0d3a44f46191caad7e9160f2c172fee5 ff3fa17a230cb12cecca2314227ecf9283b3925e M	target/test-classes/br/ce/wcaquino/tasks/functional/TasksTest.class

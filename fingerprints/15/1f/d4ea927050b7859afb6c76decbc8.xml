@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-16 10:57:44.304 UTC</timestamp>
+  <original>
+    <name>Deploy_on_Docker/com.example.maven-project:webapp</name>
+    <number>6</number>
+  </original>
+  <md5sum>151fd4ea927050b7859afb6c76decbc8</md5sum>
+  <fileName>com.example.maven-project:webapp.war</fileName>
+  <usages>
+    <entry>
+      <string>Deploy_on_Docker/com.example.maven-project:webapp</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>Deploy_on_Docker</string>
+      <ranges>6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

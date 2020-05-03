@@ -1,0 +1,14 @@
+Started by user [8mha:////4FHCZrbY86kmrO38llJbrl1wMls+PgNYdWOxp5kWtJotAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Deploy_on_Kubernetes_CD
+SSH: Connecting from host [jenkins]
+SSH: Connecting with configuration [ansible] ...
+SSH: EXEC: STDOUT/STDERR from command [ansible-playbook -i /opt/kubernetes/hosts /opt/kebernetes/kubernetes-valaxy-deployment.yml;
+ansible-playbook -i /opt/kubernetes/hosts /opt/kebernetes/kubernetes-valaxy-service.yml;] ...
+ERROR! the playbook: /opt/kebernetes/kubernetes-valaxy-deployment.yml could not be found
+ERROR! the playbook: /opt/kebernetes/kubernetes-valaxy-service.yml could not be found
+SSH: EXEC: completed after 2,202 ms
+SSH: Disconnecting configuration [ansible] ...
+ERROR: Exception when publishing, exception message [Exec exit status not zero. Status [1]]
+Build step 'Send build artifacts over SSH' changed build result to UNSTABLE
+Finished: UNSTABLE

@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-16 15:45:01.543 UTC</timestamp>
+  <original>
+    <name>Deploy_on_Container/com.example.maven-project:webapp</name>
+    <number>4</number>
+  </original>
+  <md5sum>a22a8d5de70f11a58b4a0bee6324cc0b</md5sum>
+  <fileName>com.example.maven-project:webapp.war</fileName>
+  <usages>
+    <entry>
+      <string>Deploy_on_Container/com.example.maven-project:webapp</string>
+      <ranges>4</ranges>
+    </entry>
+    <entry>
+      <string>Deploy_on_Container</string>
+      <ranges>4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,10 @@
+Started on Apr 20, 2020 3:52:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 364281419427da3e052050e9096bf79fd4017553 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/clecioantao/tasks-frontend # timeout=10
+Found 1 remote heads on https://github.com/clecioantao/tasks-frontend
+[poll] Latest remote head revision on refs/heads/master is: 7ce478abf4da5da09565fa4dfcdeecf01d4d4f66
+Done. Took 2 sec
+Changes found

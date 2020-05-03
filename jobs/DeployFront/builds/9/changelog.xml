@@ -1,0 +1,10 @@
+commit 364281419427da3e052050e9096bf79fd4017553
+tree ab993563f7f55e68125ec3ee0fbdf48f7e44f211
+parent 40462c6a38b8092fdd673be0d99fe89d151373b5
+author root <root@localhost.localdomain> 2020-04-20 15:45:12 -0300
+committer root <root@localhost.localdomain> 2020-04-20 15:45:12 -0300
+
+    Alterando index success
+
+
+:100644 100644 67eec394f27535e248be2df70b0b0ba93a9ded43 c20ee563892a4b6ef71d5303d49494af4e52cd54 M	src/main/resources/templates/index.html

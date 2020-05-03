@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-17 11:58:26.186 UTC</timestamp>
+  <original>
+    <name>Deploy_on_Container_using_ansible/com.example.maven-project:webapp</name>
+    <number>4</number>
+  </original>
+  <md5sum>777b32a65b0a8cbc07d825e8b421221c</md5sum>
+  <fileName>com.example.maven-project:webapp.war</fileName>
+  <usages>
+    <entry>
+      <string>Deploy_on_Container_using_ansible/com.example.maven-project:webapp</string>
+      <ranges>4</ranges>
+    </entry>
+    <entry>
+      <string>Deploy_on_Container_using_ansible</string>
+      <ranges>4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

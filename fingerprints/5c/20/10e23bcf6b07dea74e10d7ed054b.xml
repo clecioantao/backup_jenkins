@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-20 10:22:16.186 UTC</timestamp>
+  <md5sum>5c2010e23bcf6b07dea74e10d7ed054b</md5sum>
+  <fileName>org.springframework.boot:spring-boot-dependencies:spring-boot-dependencies-2.2.4.RELEASE.pom</fileName>
+  <usages>
+    <entry>
+      <string>DeployBack</string>
+      <ranges>1-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

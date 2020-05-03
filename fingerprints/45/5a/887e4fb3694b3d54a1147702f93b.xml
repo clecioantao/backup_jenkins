@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-20 10:32:46.442 UTC</timestamp>
+  <original>
+    <name>DeployBack/com.example.maven-project:webapp</name>
+    <number>4</number>
+  </original>
+  <md5sum>455a887e4fb3694b3d54a1147702f93b</md5sum>
+  <fileName>com.example.maven-project:webapp.war</fileName>
+  <usages>
+    <entry>
+      <string>DeployBack</string>
+      <ranges>4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

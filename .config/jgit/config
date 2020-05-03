@@ -1,0 +1,6 @@
+[filesystem "localhost|Oracle Corporation|1.8.0_242|/dev/mapper/cl-root"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "localhost|Oracle Corporation|1.8.0_252|/dev/mapper/cl-root"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 0 nanoseconds

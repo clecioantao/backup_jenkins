@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-20 10:22:16.192 UTC</timestamp>
+  <md5sum>a617d0538d80949185648c9c790e60ad</md5sum>
+  <fileName>org.hibernate.common:hibernate-commons-annotations-5.1.0.Final.jar</fileName>
+  <usages>
+    <entry>
+      <string>DeployBack</string>
+      <ranges>1-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

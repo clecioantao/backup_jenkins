@@ -1,0 +1,11 @@
+Started by user [8mha:////4FHCZrbY86kmrO38llJbrl1wMls+PgNYdWOxp5kWtJotAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Backup
+[Backup] $ /bin/bash /tmp/jenkins2126673341828100834.sh
+fatal: Unable to create '/var/lib/jenkins/.git/index.lock': Permissão negada
+fatal: Unable to create '/var/lib/jenkins/.git/index.lock': Permissão negada
+fatal: Unable to create '/var/lib/jenkins/.git/index.lock': Permissão negada
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/clecioantao/backup_jenkins.git'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

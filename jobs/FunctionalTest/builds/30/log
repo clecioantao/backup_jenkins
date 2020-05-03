@@ -1,0 +1,172 @@
+Started by user [8mha:////4FHCZrbY86kmrO38llJbrl1wMls+PgNYdWOxp5kWtJotAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/FunctionalTest
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/clecioantao/tasks-functional-test # timeout=10
+Fetching upstream changes from https://github.com/clecioantao/tasks-functional-test
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/clecioantao/tasks-functional-test +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5a65230d10bc13731dc4d7c5f1ff427ac00c3bb1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5a65230d10bc13731dc4d7c5f1ff427ac00c3bb1 # timeout=10
+Commit message: "Adicionando grid - codigo wc"
+ > git rev-list --no-walk 99e0bb99ada5e4898cef5da4f1ad42a4468df993 # timeout=10
+[FunctionalTest] $ /opt/maven/bin/mvn clean test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< br.ce.wcaquino.tasks:functional-test >----------------
+[INFO] Building functional-test 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ functional-test ---
+[INFO] Deleting /var/lib/jenkins/workspace/FunctionalTest/target
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ functional-test ---
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/FunctionalTest/src/main/resources
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ functional-test ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ functional-test ---
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/FunctionalTest/src/test/resources
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ functional-test ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/FunctionalTest/target/test-classes
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[33,42] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[33,43] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[82,42] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[82,43] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[105,42] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[105,43] unmappable character for encoding UTF8
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ functional-test ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.ce.wcaquino.tasks.functional.TasksTest
+abr 30, 2020 2:56:25 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+abr 30, 2020 2:56:25 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+abr 30, 2020 2:56:25 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+abr 30, 2020 2:56:25 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+abr 30, 2020 2:56:25 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.696 s <<< FAILURE! - in br.ce.wcaquino.tasks.functional.TasksTest
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] naoDeveSalvarTarefaComDataPassada(br.ce.wcaquino.tasks.functional.TasksTest)  Time elapsed: 0.695 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.8.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: RemoteWebDriver
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaComDataPassada(TasksTest.java:99)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.0.35:4444
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaComDataPassada(TasksTest.java:99)
+Caused by: java.net.ConnectException: Conexão recusada (Connection refused)
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaComDataPassada(TasksTest.java:99)
+
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] deveRemoverTarefaComSucesso(br.ce.wcaquino.tasks.functional.TasksTest)  Time elapsed: 0.696 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.8.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: RemoteWebDriver
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.deveRemoverTarefaComSucesso(TasksTest.java:125)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.0.35:4444
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.deveRemoverTarefaComSucesso(TasksTest.java:125)
+Caused by: java.net.ConnectException: Conexão recusada (Connection refused)
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.deveRemoverTarefaComSucesso(TasksTest.java:125)
+
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] naoDeveSalvarTarefaSemDescricao(br.ce.wcaquino.tasks.functional.TasksTest)  Time elapsed: 0.694 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.8.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: RemoteWebDriver
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaSemDescricao(TasksTest.java:53)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.0.35:4444
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaSemDescricao(TasksTest.java:53)
+Caused by: java.net.ConnectException: Conexão recusada (Connection refused)
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaSemDescricao(TasksTest.java:53)
+
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] naoDeveSalvarTarefaSemData(br.ce.wcaquino.tasks.functional.TasksTest)  Time elapsed: 0.695 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.8.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: RemoteWebDriver
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaSemData(TasksTest.java:76)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.0.35:4444
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaSemData(TasksTest.java:76)
+Caused by: java.net.ConnectException: Conexão recusada (Connection refused)
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaSemData(TasksTest.java:76)
+
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] deveSalvarTarefaComSucesso(br.ce.wcaquino.tasks.functional.TasksTest)  Time elapsed: 0.695 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.8.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: RemoteWebDriver
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.deveSalvarTarefaComSucesso(TasksTest.java:27)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.0.35:4444
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.deveSalvarTarefaComSucesso(TasksTest.java:27)
+Caused by: java.net.ConnectException: Conexão recusada (Connection refused)
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:19)
+	at br.ce.wcaquino.tasks.functional.TasksTest.deveSalvarTarefaComSucesso(TasksTest.java:27)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Errors: 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   TasksTest.deveRemoverTarefaComSucesso:125->acessarAplicacao:19 » UnreachableBrowser
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   TasksTest.deveSalvarTarefaComSucesso:27->acessarAplicacao:19 » UnreachableBrowser
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   TasksTest.naoDeveSalvarTarefaComDataPassada:99->acessarAplicacao:19 » UnreachableBrowser
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   TasksTest.naoDeveSalvarTarefaSemData:76->acessarAplicacao:19 » UnreachableBrowser
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   TasksTest.naoDeveSalvarTarefaSemDescricao:53->acessarAplicacao:19 » UnreachableBrowser
+[INFO] 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Tests run: 5, Failures: 0, Errors: 5, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.386 s
+[INFO] Finished at: 2020-04-30T14:56:26-03:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.20:test (default-test) on project functional-test: There are test failures.
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Please refer to /var/lib/jenkins/workspace/FunctionalTest/target/surefire-reports for the individual test results.
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

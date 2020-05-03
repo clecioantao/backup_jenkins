@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-20 10:22:16.223 UTC</timestamp>
+  <md5sum>90d3d7cfe2d04e3802c14e9196d9e32f</md5sum>
+  <fileName>org.hibernate:hibernate-core-5.4.10.Final.jar</fileName>
+  <usages>
+    <entry>
+      <string>DeployBack</string>
+      <ranges>1-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,11 @@
+commit d4fd1d5524ce7502e6e45b08bd3f00777e1f4bdc
+tree ecf3dc2f4623964b50e0c32bd6107c2f1a44dacb
+parent 71d5651646b869b035ac7f155ab0900ff87abb01
+author clecio <clecio.antao@gmail.com> 2020-05-01 07:20:43 -0300
+committer clecio <clecio.antao@gmail.com> 2020-05-01 07:20:43 -0300
+
+    Correção suprimindo Success corrigido - 2
+
+
+:100644 100644 17a8d7bca4aeeff0259ad6ce4c25452ce3a49a86 73c683879d88ff20b1577a493245cd9edf26868b M	src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java
+:100644 100644 fd8da01c6f63e0d826efdcf1e16ee935682d3fec c2b4800fe9d98c5ee1eed2528c5b62b4b6095564 M	target/test-classes/br/ce/wcaquino/tasks/functional/TasksTest.class

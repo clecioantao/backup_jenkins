@@ -1,0 +1,10 @@
+commit 45629611315e8f0dddd7f08f2d0c3efce59bd4cd
+tree 0d099e99063bc75224a550d257322b71128c03e7
+parent 4d316726c472c1f9ab15a430a25769f2ebce7698
+author clecio <clecio.antao@gmail.com> 2020-05-01 16:31:48 -0300
+committer clecio <clecio.antao@gmail.com> 2020-05-01 16:31:48 -0300
+
+    ajustes jenkinsfile 6
+
+
+:100644 100644 a0c12747241e3b0a51bc8b6e712e2a898e464096 249ae592d7b6705d5e4bade0416db32a69a23a9b M	Jenkinsfile

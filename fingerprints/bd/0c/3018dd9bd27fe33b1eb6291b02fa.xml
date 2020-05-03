@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-20 10:22:16.122 UTC</timestamp>
+  <original>
+    <name>DeployBack/br.ce.wcaquino:tasks-backend</name>
+    <number>1</number>
+  </original>
+  <md5sum>bd0c3018dd9bd27fe33b1eb6291b02fa</md5sum>
+  <fileName>br.ce.wcaquino:tasks-backend.war</fileName>
+  <usages>
+    <entry>
+      <string>DeployBack</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

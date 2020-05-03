@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-16 10:34:44.941 UTC</timestamp>
+  <original>
+    <name>Deploy_on_Docker/com.example.maven-project:server</name>
+    <number>1</number>
+  </original>
+  <md5sum>cd49b09e8b6ffca74453493b2c30f0c3</md5sum>
+  <fileName>com.example.maven-project:server.jar</fileName>
+  <usages>
+    <entry>
+      <string>Deploy_on_Docker</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>Deploy_on_Docker/com.example.maven-project:server</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,82 @@
+Started by upstream project "[8mha:////4ORXEuda/VPElijUTH2T0k/Op4rr5hOYD0eqbgQ7b+ChAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2X1IKc/EqnxORsfQDVIFV1xQAAAA==[0mDeployBack" build number [8mha:////4DZVJhNDjs618lU3hxdeu07FetcUKDXOrRA71HGbQtiRAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+i6pBTn5lU6Jydn6RhYAJrp9jscAAAA=[0m28
+originally caused by:
+ Started by upstream project "[8mha:////4MB7M+dSDzjR45lpDhkrcvJlomV78SauBYHLFY3mXqOrAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2X1IKc/Eq3ovy8En0AWMIUVsYAAAA=[0mDeployFront" build number [8mha:////4HO8IIkYI8wBApyf+lHNPjHvm7BdJMAan3WMYLJRSkOoAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2X1IKc/Eq3ovy8En1jUwBGTg21yAAAAA==[0m35
+ originally caused by:
+  Started by upstream project "[8mha:////4ORXEuda/VPElijUTH2T0k/Op4rr5hOYD0eqbgQ7b+ChAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2X1IKc/EqnxORsfQDVIFV1xQAAAA==[0mDeployBack" build number [8mha:////4Ljuo7l/96pn1P19NgzBtzGJZK7R6YxKgUTaZA05b0ndAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+i6pBTn5lU6Jydn6RuYAt6fCHscAAAA=[0m27
+  originally caused by:
+   Started by upstream project "[8mha:////4MB7M+dSDzjR45lpDhkrcvJlomV78SauBYHLFY3mXqOrAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2X1IKc/Eq3ovy8En0AWMIUVsYAAAA=[0mDeployFront" build number [8mha:////4POlrf7PrBdTWgnp9dfI0f/ekoEIGnMPyFqtr3AuXYeVAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2X1IKc/Eq3ovy8En1jEwDQfgrCyAAAAA==[0m34
+   originally caused by:
+    Started by upstream project "[8mha:////4ORXEuda/VPElijUTH2T0k/Op4rr5hOYD0eqbgQ7b+ChAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2X1IKc/EqnxORsfQDVIFV1xQAAAA==[0mDeployBack" build number [8mha:////4IPe7+BSh95sxKOnuyu/46RUMD4imYrqgcNBDzI00JloAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+i6pBTn5lU6Jydn6RmYAIZfFaccAAAA=[0m26
+    originally caused by:
+     Started by upstream project "[8mha:////4MB7M+dSDzjR45lpDhkrcvJlomV78SauBYHLFY3mXqOrAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2X1IKc/Eq3ovy8En0AWMIUVsYAAAA=[0mDeployFront" build number [8mha:////4MY1GeIGwoe4gTYpupRFlD68T3KCxRWOAHi9VY2a4dmyAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2X1IKc/Eq3ovy8En1jYwBz625cyAAAAA==[0m33
+     originally caused by:
+      Started by upstream project "[8mha:////4ORXEuda/VPElijUTH2T0k/Op4rr5hOYD0eqbgQ7b+ChAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2X1IKc/EqnxORsfQDVIFV1xQAAAA==[0mDeployBack" build number [8mha:////4K4gl0h87e0NLtBNwBKkyBU22uFjO5M6JM1kjiXi4lCXAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+i6pBTn5lU6Jydn6RqYAm8bM8McAAAA=[0m25
+      originally caused by:
+       Started by user [8mha:////4FHCZrbY86kmrO38llJbrl1wMls+PgNYdWOxp5kWtJotAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/DeployFront
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/clecioantao/tasks-frontend # timeout=10
+Fetching upstream changes from https://github.com/clecioantao/tasks-frontend
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/clecioantao/tasks-frontend +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7ce478abf4da5da09565fa4dfcdeecf01d4d4f66 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7ce478abf4da5da09565fa4dfcdeecf01d4d4f66 # timeout=10
+Commit message: "Alterando index rodapé"
+ > git rev-list --no-walk 7ce478abf4da5da09565fa4dfcdeecf01d4d4f66 # timeout=10
+[DeployFront] $ /opt/maven/bin/mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< br.ce.wcaquino:tasks-frontend >--------------------
+[INFO] Building tasks-frontend 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ tasks-frontend ---
+[INFO] Deleting /var/lib/jenkins/workspace/DeployFront/target
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ tasks-frontend ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 22 resources
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tasks-frontend ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /var/lib/jenkins/workspace/DeployFront/target/classes
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ tasks-frontend ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/DeployFront/src/test/resources
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ tasks-frontend ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ tasks-frontend ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:3.2.3:war (default-war) @ tasks-frontend ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [tasks-frontend] in [/var/lib/jenkins/workspace/DeployFront/target/tasks]
+[INFO] Processing war project
+[INFO] Webapp assembled in [93 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/DeployFront/target/tasks.war
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ tasks-frontend ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.765 s
+[INFO] Finished at: 2020-04-21T11:36:12-03:00
+[INFO] ------------------------------------------------------------------------
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /var/lib/jenkins/workspace/DeployFront/target/tasks.war to container Tomcat 8.x Remote with context tasks
+  Redeploying [/var/lib/jenkins/workspace/DeployFront/target/tasks.war]
+  Undeploying [/var/lib/jenkins/workspace/DeployFront/target/tasks.war]
+  Deploying [/var/lib/jenkins/workspace/DeployFront/target/tasks.war]
+Triggering a new build of [8mha:////4ORXEuda/VPElijUTH2T0k/Op4rr5hOYD0eqbgQ7b+ChAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2X1IKc/EqnxORsfQDVIFV1xQAAAA==[0mDeployBack
+Finished: SUCCESS

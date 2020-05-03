@@ -1,0 +1,91 @@
+Started by upstream project "[8mha:////4ORXEuda/VPElijUTH2T0k/Op4rr5hOYD0eqbgQ7b+ChAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2X1IKc/EqnxORsfQDVIFV1xQAAAA==[0mDeployBack" build number [8mha:////4IPe7+BSh95sxKOnuyu/46RUMD4imYrqgcNBDzI00JloAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+i6pBTn5lU6Jydn6RmYAIZfFaccAAAA=[0m26
+originally caused by:
+ Started by user [8mha:////4FHCZrbY86kmrO38llJbrl1wMls+PgNYdWOxp5kWtJotAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/FunctionalTest
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/clecioantao/tasks-functional-test # timeout=10
+Fetching upstream changes from https://github.com/clecioantao/tasks-functional-test
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/clecioantao/tasks-functional-test +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 46695f001c779ca8dfb3a48817c1ae0cff1c3527 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 46695f001c779ca8dfb3a48817c1ae0cff1c3527 # timeout=10
+Commit message: "removido mensagem do erro"
+ > git rev-list --no-walk 46695f001c779ca8dfb3a48817c1ae0cff1c3527 # timeout=10
+[FunctionalTest] $ /opt/maven/bin/mvn clean test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< br.ce.wcaquino.tasks:functional-test >----------------
+[INFO] Building functional-test 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ functional-test ---
+[INFO] Deleting /var/lib/jenkins/workspace/FunctionalTest/target
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ functional-test ---
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/FunctionalTest/src/main/resources
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ functional-test ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ functional-test ---
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/FunctionalTest/src/test/resources
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ functional-test ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/FunctionalTest/target/test-classes
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[33,42] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[33,43] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[82,42] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[82,43] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[105,42] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[105,43] unmappable character for encoding UTF8
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ functional-test ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.ce.wcaquino.tasks.functional.TasksTest
+mai 01, 2020 8:12:54 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+mai 01, 2020 8:12:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+mai 01, 2020 8:12:54 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+mai 01, 2020 8:12:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+mai 01, 2020 8:12:54 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+mai 01, 2020 8:12:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+mai 01, 2020 8:12:54 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+mai 01, 2020 8:12:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+mai 01, 2020 8:12:54 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+mai 01, 2020 8:12:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.727 s - in br.ce.wcaquino.tasks.functional.TasksTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.355 s
+[INFO] Finished at: 2020-05-01T08:13:00-03:00
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4CO6nsUM1atd/88CjfPvIJdhOoCMIf9GxvwdzqBmNfh1AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JH3HAM+Q1OISfQBxtJCpwgAAAA==[0mAPITest
+Finished: SUCCESS

@@ -1,0 +1,11 @@
+commit 087853d541bc8e5768bb265ced403574733e40e6
+tree c682955c0eca315fc22a4db11b16bfbe1515e5ca
+parent 506e64409b939fef725e444ae68b2e41de99cdb7
+author clecio <clecio.antao@gmail.com> 2020-04-30 07:42:12 -0300
+committer clecio <clecio.antao@gmail.com> 2020-04-30 07:42:12 -0300
+
+    Liberando chromedrive 5
+
+
+:100644 100644 bfaef73cf8df0a9a8afb5efd586742bbcf651739 55a57286d46f91afe728bb3f06ab31781a26dd04 M	src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java
+:100644 100644 fc3d39661e3725dc7908c030425bb9da4c9801b7 d7cea9eaa632e10c08ae3bd1839b1b0beed2d075 M	target/test-classes/br/ce/wcaquino/tasks/functional/TasksTest.class

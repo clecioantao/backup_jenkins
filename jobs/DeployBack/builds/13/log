@@ -1,0 +1,184 @@
+Started by user [8mha:////4FHCZrbY86kmrO38llJbrl1wMls+PgNYdWOxp5kWtJotAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/DeployBack
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/clecioantao/tasks-backend # timeout=10
+Fetching upstream changes from https://github.com/clecioantao/tasks-backend
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/clecioantao/tasks-backend +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision a0a6e967bdc6e1530da8d344feb789e2d4a44f5e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a0a6e967bdc6e1530da8d344feb789e2d4a44f5e # timeout=10
+Commit message: "subindo testes"
+ > git rev-list --no-walk a0a6e967bdc6e1530da8d344feb789e2d4a44f5e # timeout=10
+[DeployBack] $ /opt/maven/bin/mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< br.ce.wcaquino:tasks-backend >--------------------
+[INFO] Building tasks-backend 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ tasks-backend ---
+[INFO] Deleting /var/lib/jenkins/workspace/DeployBack/target
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.8.3:prepare-agent (default) @ tasks-backend ---
+[INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/var/lib/jenkins/workspace/DeployBack/target/jacoco.exec
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ tasks-backend ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tasks-backend ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /var/lib/jenkins/workspace/DeployBack/target/classes
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ tasks-backend ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/DeployBack/src/test/resources
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ tasks-backend ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/DeployBack/target/test-classes
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ tasks-backend ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.ce.wcaquino.taskbackend.utils.DateUtilsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.154 s - in br.ce.wcaquino.taskbackend.utils.DateUtilsTest
+[INFO] Running br.ce.wcaquino.taskbackend.controller.TaskControllerTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.443 s - in br.ce.wcaquino.taskbackend.controller.TaskControllerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:3.2.3:war (default-war) @ tasks-backend ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [tasks-backend] in [/var/lib/jenkins/workspace/DeployBack/target/tasks-backend]
+[INFO] Processing war project
+[INFO] Webapp assembled in [110 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/DeployBack/target/tasks-backend.war
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ tasks-backend ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.447 s
+[INFO] Finished at: 2020-04-29T06:44:05-03:00
+[INFO] ------------------------------------------------------------------------
+[DeployBack] $ /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar_scanner/bin/sonar-scanner -Dsonar.host.url=http://192.168.0.32:9000/ ******** -Dsonar.login=4c5f2a81177d460fff32d649595d3a8206ff88ba -Dsonar.projectKey=DeployBack -Dsonar.host.url=http://192.168.0.32:9000 -Dsonar.java.binaries=target -Dsonar.projectBaseDir=/var/lib/jenkins/workspace/DeployBack
+INFO: Scanner configuration file: /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar_scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarScanner 4.3.0.2102
+INFO: Java 1.8.0_242 Oracle Corporation (64-bit)
+INFO: Linux 4.18.0-147.8.1.el8_1.x86_64 amd64
+INFO: User cache: /var/lib/jenkins/.sonar/cache
+INFO: Scanner configuration file: /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar_scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: Analyzing on SonarQube server 7.9.2
+INFO: Default locale: "pt_BR", source code encoding: "UTF-8" (analysis is platform dependent)
+WARN: SonarScanner will require Java 11 to run starting in SonarQube 8.x
+INFO: Load global settings
+INFO: Load global settings (done) | time=75ms
+INFO: Server id: BF41A1F2-AXHATMjt4jZn9HeIy82Q
+INFO: User cache: /var/lib/jenkins/.sonar/cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=51ms
+INFO: Load/download plugins (done) | time=78ms
+INFO: Process project properties
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=4ms
+INFO: Project key: DeployBack
+INFO: Base dir: /var/lib/jenkins/workspace/DeployBack
+INFO: Working dir: /var/lib/jenkins/workspace/DeployBack/.scannerwork
+INFO: Load project settings for component key: 'DeployBack'
+INFO: Load project settings for component key: 'DeployBack' (done) | time=23ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=57ms
+INFO: Detected Jenkins
+INFO: Load active rules
+INFO: Load active rules (done) | time=3364ms
+INFO: Indexing files...
+INFO: Project configuration:
+INFO: 13 files indexed
+INFO: 0 files ignored because of scm ignore settings
+INFO: Quality profile for java: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: ------------- Run sensors on module DeployBack
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=67ms
+INFO: Sensor JavaSquidSensor [java]
+INFO: Configured Java source version (sonar.java.source): none
+INFO: JavaClasspath initialization
+WARN: Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property.
+INFO: JavaClasspath initialization (done) | time=15ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=0ms
+INFO: Java Main Files AST scan
+INFO: 9 source files to be analyzed
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=18ms
+INFO: 9/9 source files have been analyzed
+INFO: Java Main Files AST scan (done) | time=936ms
+INFO: Java Test Files AST scan
+INFO: 0 source files to be analyzed
+INFO: Java Test Files AST scan (done) | time=1ms
+INFO: 0/0 source files have been analyzed
+INFO: Sensor JavaSquidSensor [java] (done) | time=1615ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco]
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+INFO: Sensor SurefireSensor [java]
+INFO: parsing [/var/lib/jenkins/workspace/DeployBack/target/surefire-reports]
+INFO: Sensor SurefireSensor [java] (done) | time=28ms
+INFO: Sensor JaCoCoSensor [java]
+WARN: Property 'sonar.jacoco.reportPaths' is deprecated (JaCoCo binary format). 'sonar.coverage.jacoco.xmlReportPaths' should be used instead (JaCoCo XML format).
+INFO: Analysing /var/lib/jenkins/workspace/DeployBack/target/jacoco.exec
+INFO: Sensor JaCoCoSensor [java] (done) | time=84ms
+INFO: Sensor JavaXmlSensor [java]
+INFO: 1 source files to be analyzed
+INFO: Sensor JavaXmlSensor [java] (done) | time=160ms
+INFO: Sensor HTML [web]
+INFO: 1/1 source files have been analyzed
+INFO: Sensor HTML [web] (done) | time=16ms
+INFO: Sensor XML Sensor [xml]
+INFO: 1 source files to be analyzed
+INFO: Sensor XML Sensor [xml] (done) | time=324ms
+INFO: 1/1 source files have been analyzed
+INFO: ------------- Run sensors on project
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=1ms
+INFO: Sensor Java CPD Block Indexer
+INFO: Sensor Java CPD Block Indexer (done) | time=35ms
+INFO: 5 files had no CPD blocks
+INFO: Calculating CPD for 4 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 79ms, dir size=93 KB
+INFO: Analysis report compressed in 36ms, zip size=29 KB
+INFO: Analysis report uploaded in 60ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://192.168.0.32:9000/dashboard?id=DeployBack
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://192.168.0.32:9000/api/ce/task?id=AXHFUqcz4jZn9HeIy--_
+INFO: Analysis total time: 8.698 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 14.730s
+INFO: Final Memory: 19M/246M
+INFO: ------------------------------------------------------------------------
+Recording test results
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /var/lib/jenkins/workspace/DeployBack/target/tasks-backend.war to container Tomcat 8.x Remote with context tasks-backend
+  Redeploying [/var/lib/jenkins/workspace/DeployBack/target/tasks-backend.war]
+  Undeploying [/var/lib/jenkins/workspace/DeployBack/target/tasks-backend.war]
+  Deploying [/var/lib/jenkins/workspace/DeployBack/target/tasks-backend.war]
+Finished: SUCCESS

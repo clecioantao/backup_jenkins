@@ -1,0 +1,244 @@
+Started by user [8mha:////4FHCZrbY86kmrO38llJbrl1wMls+PgNYdWOxp5kWtJotAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/FunctionalTest
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/clecioantao/tasks-functional-test # timeout=10
+Fetching upstream changes from https://github.com/clecioantao/tasks-functional-test
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/clecioantao/tasks-functional-test +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 99e0bb99ada5e4898cef5da4f1ad42a4468df993 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 99e0bb99ada5e4898cef5da4f1ad42a4468df993 # timeout=10
+Commit message: "grid"
+ > git rev-list --no-walk 087853d541bc8e5768bb265ced403574733e40e6 # timeout=10
+[FunctionalTest] $ /opt/maven/bin/mvn clean test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< br.ce.wcaquino.tasks:functional-test >----------------
+[INFO] Building functional-test 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.pom
+Progress (1): 2.2/6.5 kBProgress (1): 5.0/6.5 kBProgress (1): 6.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.pom (6.5 kB at 2.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.20/surefire-2.20.pom
+Progress (1): 2.2/21 kBProgress (1): 5.0/21 kBProgress (1): 7.8/21 kBProgress (1): 11/21 kB Progress (1): 13/21 kBProgress (1): 16/21 kBProgress (1): 19/21 kBProgress (1): 21 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.20/surefire-2.20.pom (21 kB at 44 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom
+Progress (1): 2.2/40 kBProgress (1): 5.0/40 kBProgress (1): 7.8/40 kBProgress (1): 11/40 kB Progress (1): 13/40 kBProgress (1): 16/40 kBProgress (1): 19/40 kBProgress (1): 21/40 kBProgress (1): 24/40 kBProgress (1): 27/40 kBProgress (1): 30/40 kBProgress (1): 32/40 kBProgress (1): 35/40 kBProgress (1): 38/40 kBProgress (1): 40 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom (40 kB at 70 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.jar
+Progress (1): 2.2/53 kBProgress (1): 5.0/53 kBProgress (1): 7.7/53 kBProgress (1): 10/53 kB Progress (1): 13/53 kBProgress (1): 16/53 kBProgress (1): 19/53 kBProgress (1): 21/53 kBProgress (1): 24/53 kBProgress (1): 27/53 kBProgress (1): 30/53 kBProgress (1): 32/53 kBProgress (1): 36/53 kBProgress (1): 40/53 kBProgress (1): 45/53 kBProgress (1): 49/53 kBProgress (1): 53/53 kBProgress (1): 53 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.jar (53 kB at 143 kB/s)
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ functional-test ---
+[INFO] Deleting /var/lib/jenkins/workspace/FunctionalTest/target
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ functional-test ---
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/FunctionalTest/src/main/resources
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ functional-test ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ functional-test ---
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/FunctionalTest/src/test/resources
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ functional-test ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/FunctionalTest/target/test-classes
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[38,45] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[38,46] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[69,45] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[69,46] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[100,45] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[100,46] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[131,45] unmappable character for encoding UTF8
+[8mha:////4CdN9j88zdglflVugYoHiqZVDaleC86/Q8hL2SHpx28CAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/FunctionalTest/src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java:[131,46] unmappable character for encoding UTF8
+[INFO] 
+[8mha:////4Nu3Qhjj8w0D/DEqDj3eV3/jLcNUHMEHF9tF4+puXb7OAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ functional-test ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.20/maven-surefire-common-2.20.pom
+Progress (1): 2.2/9.4 kBProgress (1): 5.0/9.4 kBProgress (1): 7.8/9.4 kBProgress (1): 9.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.20/maven-surefire-common-2.20.pom (9.4 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.pom
+Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.pom (1.6 kB at 5.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.3/maven-plugin-tools-3.3.pom
+Progress (1): 2.2/13 kBProgress (1): 5.0/13 kBProgress (1): 7.8/13 kBProgress (1): 11/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.3/maven-plugin-tools-3.3.pom (13 kB at 41 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.20/surefire-api-2.20.pom
+Progress (1): 2.2/3.7 kBProgress (1): 3.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.20/surefire-api-2.20.pom (3.7 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.20/surefire-logger-api-2.20.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.20/surefire-logger-api-2.20.pom (2.0 kB at 6.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.20/surefire-booter-2.20.pom
+Progress (1): 2.2/3.2 kBProgress (1): 3.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.20/surefire-booter-2.20.pom (3.2 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.20/maven-surefire-common-2.20.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.20/surefire-booter-2.20.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.20/surefire-api-2.20.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.20/surefire-logger-api-2.20.jar
+Progress (1): 2.2/331 kBProgress (1): 5.0/331 kBProgress (1): 7.7/331 kBProgress (1): 10/331 kB Progress (1): 13/331 kBProgress (1): 16/331 kBProgress (1): 19/331 kBProgress (1): 21/331 kBProgress (1): 24/331 kBProgress (1): 27/331 kBProgress (1): 30/331 kBProgress (1): 32/331 kBProgress (1): 36/331 kBProgress (1): 40/331 kBProgress (1): 45/331 kBProgress (1): 49/331 kBProgress (1): 53/331 kBProgress (1): 57/331 kBProgress (1): 61/331 kBProgress (1): 65/331 kBProgress (1): 69/331 kBProgress (1): 73/331 kBProgress (1): 77/331 kBProgress (1): 81/331 kBProgress (1): 85/331 kBProgress (1): 90/331 kBProgress (1): 94/331 kBProgress (1): 98/331 kBProgress (1): 102/331 kBProgress (1): 106/331 kBProgress (1): 110/331 kBProgress (1): 114/331 kBProgress (1): 118/331 kBProgress (1): 122/331 kBProgress (1): 126/331 kBProgress (1): 131/331 kBProgress (1): 135/331 kBProgress (1): 139/331 kBProgress (1): 143/331 kBProgress (1): 147/331 kBProgress (1): 151/331 kBProgress (1): 155/331 kBProgress (1): 159/331 kBProgress (1): 163/331 kBProgress (1): 167/331 kBProgress (1): 171/331 kBProgress (1): 176/331 kBProgress (1): 180/331 kBProgress (1): 184/331 kBProgress (1): 188/331 kBProgress (1): 192/331 kBProgress (1): 196/331 kBProgress (1): 200/331 kBProgress (1): 204/331 kBProgress (1): 208/331 kBProgress (1): 212/331 kBProgress (1): 217/331 kBProgress (1): 221/331 kBProgress (1): 225/331 kBProgress (1): 229/331 kBProgress (1): 233/331 kBProgress (1): 237/331 kBProgress (1): 241/331 kBProgress (1): 245/331 kBProgress (1): 249/331 kBProgress (1): 253/331 kBProgress (1): 258/331 kBProgress (1): 262/331 kBProgress (2): 262/331 kB | 2.2/182 kBProgress (2): 262/331 kB | 5.0/182 kBProgress (2): 262/331 kB | 7.7/182 kBProgress (2): 262/331 kB | 10/182 kB Progress (2): 262/331 kB | 13/182 kBProgress (2): 266/331 kB | 13/182 kBProgress (2): 270/331 kB | 13/182 kBProgress (2): 274/331 kB | 13/182 kBProgress (2): 278/331 kB | 13/182 kBProgress (3): 278/331 kB | 13/182 kB | 2.2/50 kBProgress (3): 278/331 kB | 13/182 kB | 5.0/50 kBProgress (3): 278/331 kB | 13/182 kB | 7.7/50 kBProgress (3): 278/331 kB | 13/182 kB | 10/50 kB Progress (3): 278/331 kB | 13/182 kB | 13/50 kBProgress (4): 278/331 kB | 13/182 kB | 13/50 kB | 2.2/14 kBProgress (4): 278/331 kB | 13/182 kB | 13/50 kB | 5.0/14 kBProgress (4): 278/331 kB | 13/182 kB | 13/50 kB | 7.7/14 kBProgress (5): 278/331 kB | 13/182 kB | 13/50 kB | 7.7/14 kB | 2.2/13 kBProgress (5): 278/331 kB | 13/182 kB | 13/50 kB | 10/14 kB | 2.2/13 kB Progress (5): 278/331 kB | 13/182 kB | 13/50 kB | 10/14 kB | 5.0/13 kBProgress (5): 278/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 5.0/13 kBProgress (5): 278/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 7.7/13 kBProgress (5): 282/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 7.7/13 kBProgress (5): 282/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 10/13 kB Progress (5): 286/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 10/13 kBProgress (5): 286/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kB   Progress (5): 290/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 294/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 298/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 303/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 307/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 311/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 315/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 319/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 323/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 327/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 331/331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 331 kB | 13/182 kB | 13/50 kB | 13/14 kB | 13 kB    Progress (5): 331 kB | 16/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 331 kB | 19/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 331 kB | 21/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 331 kB | 24/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 331 kB | 27/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 331 kB | 30/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 331 kB | 32/182 kB | 13/50 kB | 13/14 kB | 13 kBProgress (5): 331 kB | 32/182 kB | 16/50 kB | 13/14 kB | 13 kBProgress (5): 331 kB | 32/182 kB | 19/50 kB | 13/14 kB | 13 kBProgress (5): 331 kB | 32/182 kB | 21/50 kB | 13/14 kB | 13 kBProgress (5): 331 kB | 32/182 kB | 21/50 kB | 14 kB | 13 kB   Progress (5): 331 kB | 32/182 kB | 24/50 kB | 14 kB | 13 kBProgress (5): 331 kB | 32/182 kB | 27/50 kB | 14 kB | 13 kBProgress (5): 331 kB | 32/182 kB | 30/50 kB | 14 kB | 13 kB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.20/maven-surefire-common-2.20.jar (331 kB at 500 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.20/surefire-logger-api-2.20.jar (13 kB at 19 kB/s)
+Progress (3): 32/182 kB | 32/50 kB | 14 kBProgress (3): 36/182 kB | 32/50 kB | 14 kBProgress (3): 40/182 kB | 32/50 kB | 14 kBProgress (3): 45/182 kB | 32/50 kB | 14 kBProgress (3): 49/182 kB | 32/50 kB | 14 kBProgress (3): 53/182 kB | 32/50 kB | 14 kBProgress (3): 57/182 kB | 32/50 kB | 14 kBProgress (3): 61/182 kB | 32/50 kB | 14 kBProgress (3): 65/182 kB | 32/50 kB | 14 kBProgress (3): 69/182 kB | 32/50 kB | 14 kBProgress (3): 73/182 kB | 32/50 kB | 14 kBProgress (3): 77/182 kB | 32/50 kB | 14 kBProgress (3): 81/182 kB | 32/50 kB | 14 kBProgress (3): 85/182 kB | 32/50 kB | 14 kBProgress (3): 90/182 kB | 32/50 kB | 14 kBProgress (3): 94/182 kB | 32/50 kB | 14 kBProgress (3): 98/182 kB | 32/50 kB | 14 kBProgress (3): 98/182 kB | 36/50 kB | 14 kB                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar (14 kB at 18 kB/s)
+Progress (2): 98/182 kB | 40/50 kBProgress (2): 98/182 kB | 45/50 kBProgress (2): 98/182 kB | 49/50 kBProgress (2): 98/182 kB | 50 kB   Progress (2): 102/182 kB | 50 kBProgress (2): 106/182 kB | 50 kBProgress (2): 110/182 kB | 50 kBProgress (2): 114/182 kB | 50 kBProgress (2): 118/182 kB | 50 kBProgress (2): 122/182 kB | 50 kBProgress (2): 126/182 kB | 50 kBProgress (2): 131/182 kB | 50 kBProgress (2): 135/182 kB | 50 kBProgress (2): 139/182 kB | 50 kBProgress (2): 143/182 kB | 50 kBProgress (2): 147/182 kB | 50 kBProgress (2): 151/182 kB | 50 kBProgress (2): 155/182 kB | 50 kBProgress (2): 159/182 kB | 50 kBProgress (2): 163/182 kB | 50 kBProgress (2): 167/182 kB | 50 kBProgress (2): 171/182 kB | 50 kBProgress (2): 176/182 kB | 50 kBProgress (2): 180/182 kB | 50 kBProgress (2): 182 kB | 50 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.20/surefire-booter-2.20.jar (50 kB at 52 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.20/surefire-api-2.20.jar (182 kB at 172 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.pom
+Progress (1): 2.2/6.2 kBProgress (1): 5.0/6.2 kBProgress (1): 6.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.pom (6.2 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.20/surefire-providers-2.20.pom
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.20/surefire-providers-2.20.pom (2.6 kB at 9.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.pom
+Progress (1): 2.2/3.2 kBProgress (1): 3.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.pom (3.2 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.pom
+Progress (1): 2.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.pom (2.1 kB at 7.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.pom
+Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.pom (1.6 kB at 5.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.pom
+Progress (1): 2.2/2.7 kBProgress (1): 2.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.pom (2.7 kB at 8.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.pom
+Progress (1): 2.2/6.2 kBProgress (1): 5.0/6.2 kBProgress (1): 6.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.pom (6.2 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.pom
+Progress (1): 2.2/2.6 kBProgress (1): 2.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.pom (2.6 kB at 7.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.jar
+Progress (1): 2.2/163 kBProgress (1): 5.0/163 kBProgress (1): 7.7/163 kBProgress (1): 10/163 kB Progress (1): 13/163 kBProgress (1): 16/163 kBProgress (1): 19/163 kBProgress (1): 21/163 kBProgress (1): 24/163 kBProgress (1): 27/163 kBProgress (1): 30/163 kBProgress (1): 32/163 kBProgress (1): 36/163 kBProgress (1): 40/163 kBProgress (1): 45/163 kBProgress (1): 49/163 kBProgress (1): 53/163 kBProgress (1): 57/163 kBProgress (1): 61/163 kBProgress (1): 65/163 kBProgress (1): 69/163 kBProgress (1): 73/163 kBProgress (1): 77/163 kBProgress (1): 81/163 kBProgress (1): 85/163 kBProgress (1): 90/163 kBProgress (1): 94/163 kBProgress (1): 98/163 kBProgress (1): 102/163 kBProgress (1): 106/163 kBProgress (1): 110/163 kBProgress (1): 114/163 kBProgress (1): 118/163 kBProgress (1): 122/163 kBProgress (1): 126/163 kBProgress (1): 131/163 kBProgress (2): 131/163 kB | 2.2/12 kBProgress (2): 131/163 kB | 5.0/12 kBProgress (2): 131/163 kB | 7.7/12 kBProgress (2): 131/163 kB | 10/12 kB Progress (2): 131/163 kB | 12 kB   Progress (3): 131/163 kB | 12 kB | 2.2/26 kBProgress (3): 131/163 kB | 12 kB | 5.0/26 kBProgress (3): 131/163 kB | 12 kB | 7.7/26 kBProgress (3): 131/163 kB | 12 kB | 10/26 kB Progress (3): 131/163 kB | 12 kB | 13/26 kBProgress (3): 131/163 kB | 12 kB | 16/26 kBProgress (3): 131/163 kB | 12 kB | 19/26 kBProgress (3): 131/163 kB | 12 kB | 21/26 kBProgress (3): 131/163 kB | 12 kB | 24/26 kBProgress (3): 131/163 kB | 12 kB | 26 kB   Progress (4): 131/163 kB | 12 kB | 26 kB | 2.2/23 kBProgress (4): 131/163 kB | 12 kB | 26 kB | 5.0/23 kBProgress (4): 131/163 kB | 12 kB | 26 kB | 7.7/23 kBProgress (4): 131/163 kB | 12 kB | 26 kB | 10/23 kB Progress (4): 131/163 kB | 12 kB | 26 kB | 13/23 kBProgress (4): 131/163 kB | 12 kB | 26 kB | 16/23 kBProgress (5): 131/163 kB | 12 kB | 26 kB | 16/23 kB | 2.2/50 kBProgress (5): 131/163 kB | 12 kB | 26 kB | 16/23 kB | 5.0/50 kBProgress (5): 131/163 kB | 12 kB | 26 kB | 16/23 kB | 7.7/50 kBProgress (5): 131/163 kB | 12 kB | 26 kB | 16/23 kB | 10/50 kB Progress (5): 131/163 kB | 12 kB | 26 kB | 19/23 kB | 10/50 kBProgress (5): 131/163 kB | 12 kB | 26 kB | 19/23 kB | 13/50 kBProgress (5): 131/163 kB | 12 kB | 26 kB | 19/23 kB | 16/50 kBProgress (5): 131/163 kB | 12 kB | 26 kB | 19/23 kB | 19/50 kBProgress (5): 131/163 kB | 12 kB | 26 kB | 21/23 kB | 19/50 kBProgress (5): 131/163 kB | 12 kB | 26 kB | 21/23 kB | 21/50 kBProgress (5): 131/163 kB | 12 kB | 26 kB | 23 kB | 21/50 kB   Progress (5): 131/163 kB | 12 kB | 26 kB | 23 kB | 24/50 kBProgress (5): 131/163 kB | 12 kB | 26 kB | 23 kB | 27/50 kBProgress (5): 135/163 kB | 12 kB | 26 kB | 23 kB | 27/50 kBProgress (5): 139/163 kB | 12 kB | 26 kB | 23 kB | 27/50 kBProgress (5): 143/163 kB | 12 kB | 26 kB | 23 kB | 27/50 kBProgress (5): 147/163 kB | 12 kB | 26 kB | 23 kB | 27/50 kBProgress (5): 151/163 kB | 12 kB | 26 kB | 23 kB | 27/50 kBProgress (5): 155/163 kB | 12 kB | 26 kB | 23 kB | 27/50 kBProgress (5): 159/163 kB | 12 kB | 26 kB | 23 kB | 27/50 kBProgress (5): 163 kB | 12 kB | 26 kB | 23 kB | 27/50 kB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.jar (12 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.jar (26 kB at 72 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.jar
+Progress (3): 163 kB | 23 kB | 30/50 kBProgress (3): 163 kB | 23 kB | 32/50 kBProgress (3): 163 kB | 23 kB | 36/50 kBProgress (3): 163 kB | 23 kB | 40/50 kBProgress (3): 163 kB | 23 kB | 45/50 kBProgress (3): 163 kB | 23 kB | 49/50 kBProgress (3): 163 kB | 23 kB | 50 kB                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.jar (23 kB at 50 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.jar (163 kB at 335 kB/s)
+Progress (2): 50 kB | 2.2/172 kBProgress (2): 50 kB | 5.0/172 kBProgress (2): 50 kB | 7.7/172 kBProgress (2): 50 kB | 10/172 kB Progress (2): 50 kB | 13/172 kBProgress (2): 50 kB | 16/172 kBProgress (2): 50 kB | 19/172 kBProgress (2): 50 kB | 21/172 kBProgress (2): 50 kB | 24/172 kBProgress (2): 50 kB | 27/172 kBProgress (2): 50 kB | 30/172 kBProgress (2): 50 kB | 32/172 kBProgress (2): 50 kB | 36/172 kBProgress (2): 50 kB | 40/172 kBProgress (2): 50 kB | 45/172 kBProgress (2): 50 kB | 49/172 kBProgress (2): 50 kB | 53/172 kBProgress (2): 50 kB | 57/172 kBProgress (2): 50 kB | 61/172 kBProgress (2): 50 kB | 65/172 kBProgress (2): 50 kB | 69/172 kBProgress (2): 50 kB | 73/172 kBProgress (2): 50 kB | 77/172 kBProgress (2): 50 kB | 81/172 kBProgress (2): 50 kB | 85/172 kBProgress (2): 50 kB | 90/172 kBProgress (2): 50 kB | 94/172 kBProgress (2): 50 kB | 98/172 kBProgress (2): 50 kB | 102/172 kBProgress (2): 50 kB | 106/172 kBProgress (2): 50 kB | 110/172 kBProgress (2): 50 kB | 114/172 kBProgress (2): 50 kB | 118/172 kBProgress (2): 50 kB | 122/172 kBProgress (2): 50 kB | 126/172 kBProgress (2): 50 kB | 131/172 kBProgress (3): 50 kB | 131/172 kB | 2.2/40 kBProgress (3): 50 kB | 131/172 kB | 5.0/40 kBProgress (3): 50 kB | 131/172 kB | 7.7/40 kBProgress (3): 50 kB | 131/172 kB | 10/40 kB Progress (3): 50 kB | 135/172 kB | 10/40 kBProgress (3): 50 kB | 135/172 kB | 13/40 kBProgress (3): 50 kB | 139/172 kB | 13/40 kBProgress (3): 50 kB | 139/172 kB | 16/40 kBProgress (3): 50 kB | 143/172 kB | 16/40 kBProgress (3): 50 kB | 147/172 kB | 16/40 kBProgress (3): 50 kB | 147/172 kB | 19/40 kBProgress (3): 50 kB | 151/172 kB | 19/40 kBProgress (3): 50 kB | 155/172 kB | 19/40 kBProgress (3): 50 kB | 159/172 kB | 19/40 kBProgress (3): 50 kB | 163/172 kB | 19/40 kBProgress (3): 50 kB | 163/172 kB | 21/40 kBProgress (3): 50 kB | 167/172 kB | 21/40 kBProgress (3): 50 kB | 167/172 kB | 24/40 kBProgress (3): 50 kB | 171/172 kB | 24/40 kBProgress (3): 50 kB | 171/172 kB | 27/40 kBProgress (3): 50 kB | 172 kB | 27/40 kB    Progress (3): 50 kB | 172 kB | 30/40 kBProgress (3): 50 kB | 172 kB | 32/40 kBProgress (3): 50 kB | 172 kB | 35/40 kBProgress (3): 50 kB | 172 kB | 38/40 kBProgress (3): 50 kB | 172 kB | 40 kB                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.jar (50 kB at 88 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.jar (172 kB at 412 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.jar (40 kB at 100 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.ce.wcaquino.tasks.functional.TasksTest
+abr 30, 2020 1:09:59 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+abr 30, 2020 1:09:59 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+abr 30, 2020 1:09:59 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+abr 30, 2020 1:09:59 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 61.026 s <<< FAILURE! - in br.ce.wcaquino.tasks.functional.TasksTest
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] naoDeveSalvarTarefaSemData(br.ce.wcaquino.tasks.functional.TasksTest)  Time elapsed: 61.026 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.18.0-147.5.1.el8_1.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.09 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.5.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+Command duration or timeout: 60.39 seconds
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:22)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaSemData(TasksTest.java:93)
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.18.0-147.5.1.el8_1.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.09 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.5.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.8.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] naoDeveSalvarTarefaComDataPassada(br.ce.wcaquino.tasks.functional.TasksTest)  Time elapsed: 61.011 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.18.0-147.5.1.el8_1.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.08 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.5.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+Command duration or timeout: 60.38 seconds
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:22)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaComDataPassada(TasksTest.java:124)
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.18.0-147.5.1.el8_1.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.08 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.5.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.8.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] naoDeveSalvarTarefaSemDescricao(br.ce.wcaquino.tasks.functional.TasksTest)  Time elapsed: 61.015 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.18.0-147.5.1.el8_1.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.07 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.5.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+Command duration or timeout: 60.39 seconds
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:22)
+	at br.ce.wcaquino.tasks.functional.TasksTest.naoDeveSalvarTarefaSemDescricao(TasksTest.java:62)
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.18.0-147.5.1.el8_1.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.07 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.5.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.8.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] deveSalvarTarefaComSucesso(br.ce.wcaquino.tasks.functional.TasksTest)  Time elapsed: 60.952 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.18.0-147.5.1.el8_1.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.03 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.5.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+Command duration or timeout: 60.28 seconds
+	at br.ce.wcaquino.tasks.functional.TasksTest.acessarAplicacao(TasksTest.java:22)
+	at br.ce.wcaquino.tasks.functional.TasksTest.deveSalvarTarefaComSucesso(TasksTest.java:31)
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.18.0-147.5.1.el8_1.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.03 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.5.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-147.8.1.el8_1.x86_64', java.version: '1.8.0_252'
+Driver info: driver.version: unknown
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Errors: 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   TasksTest.deveSalvarTarefaComSucesso:31->acessarAplicacao:22 » WebDriver unkno...
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   TasksTest.naoDeveSalvarTarefaComDataPassada:124->acessarAplicacao:22 » WebDriver
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   TasksTest.naoDeveSalvarTarefaSemData:93->acessarAplicacao:22 » WebDriver unkno...
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   TasksTest.naoDeveSalvarTarefaSemDescricao:62->acessarAplicacao:22 » WebDriver ...
+[INFO] 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Tests run: 4, Failures: 0, Errors: 4, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:13 min
+[INFO] Finished at: 2020-04-30T13:11:00-03:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.20:test (default-test) on project functional-test: There are test failures.
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Please refer to /var/lib/jenkins/workspace/FunctionalTest/target/surefire-reports for the individual test results.
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4EpiqhBBvWOAoL6RGyBonOPuOVBlW3Uf5nyR5ZPU0dl6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

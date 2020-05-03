@@ -1,0 +1,10 @@
+commit a20c4d008f08a2389a3ab37660e6909a18b53966
+tree cc99d805600a62cf50237f043646b800ac745b66
+parent bf7034f84ec18b7a3c623eab70678939a2887255
+author clecioantao <clecio.antao@gmail.com> 2020-04-17 08:54:37 -0300
+committer clecioantao <clecio.antao@gmail.com> 2020-04-17 08:54:37 -0300
+
+    24. Run Ansible playbooks from Jenkins
+
+
+:100644 100644 88420af82840a4f11e96a0e51ca4b861a8b3f2d2 8ee108dbc7db96129c01e667e22b57fce4d3ddce M	webapp/src/main/webapp/index.jsp

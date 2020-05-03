@@ -1,0 +1,15 @@
+commit 99e0bb99ada5e4898cef5da4f1ad42a4468df993
+tree 3048ea8fde3ba74b26e4cdb1bceab4725699063c
+parent 087853d541bc8e5768bb265ced403574733e40e6
+author clecio <clecio.antao@gmail.com> 2020-04-30 13:08:32 -0300
+committer clecio <clecio.antao@gmail.com> 2020-04-30 13:08:32 -0300
+
+    grid
+
+
+:100644 100644 fa02d9445edb4e7b8fb246402c5e4d4803813a61 1ac24a4364bfae1a81d1ca866a398ecef3c5b3fb M	.classpath
+:100644 100644 85b6b6b1e4785459be5dff8906a64f8655afcfa3 56152fd05daf8a410baf8bc4cdeb8b3e43883750 M	pom.xml
+:100644 100644 55a57286d46f91afe728bb3f06ab31781a26dd04 a9a27ab251f86fd46fa1f6c8521f9e47e201f326 M	src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java
+:100644 100644 7b551919e93c53b068a917a242a85ddf0fcaeee2 9034a19c0a58bc5781f5785074d9574bd2043054 M	target/classes/META-INF/maven/br.ce.wcaquino.tasks/functional-test/pom.properties
+:100644 100644 85b6b6b1e4785459be5dff8906a64f8655afcfa3 56152fd05daf8a410baf8bc4cdeb8b3e43883750 M	target/classes/META-INF/maven/br.ce.wcaquino.tasks/functional-test/pom.xml
+:100644 100644 d7cea9eaa632e10c08ae3bd1839b1b0beed2d075 e07c18b19477178e276710d74fb2f60bf25f750c M	target/test-classes/br/ce/wcaquino/tasks/functional/TasksTest.class

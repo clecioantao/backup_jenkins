@@ -1,0 +1,14 @@
+commit 6f1ac30fa317bc4311aaee705000ccb94f5c249f
+tree 6986bda0bca02021b73eb18580b5c2870640640f
+parent 39f56b0da54a3b7d61a395b78d51670957ffaedd
+author clecio <clecio.antao@gmail.com> 2020-05-01 06:31:20 -0300
+committer clecio <clecio.antao@gmail.com> 2020-05-01 06:31:20 -0300
+
+    Correção Sucsses
+
+
+:100644 100644 56152fd05daf8a410baf8bc4cdeb8b3e43883750 373a27f29ea09973b148dd1420a358c1edea976d M	pom.xml
+:100644 100644 2ee4d10bda672b3f7e04946a125c979de6174533 60c21cc172dfe03b5846c6809a712bd042d97461 M	src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java
+:100644 100644 9034a19c0a58bc5781f5785074d9574bd2043054 dfae7a09ea489d03a8184082a34c2c9ed522d372 M	target/classes/META-INF/maven/br.ce.wcaquino.tasks/functional-test/pom.properties
+:100644 100644 56152fd05daf8a410baf8bc4cdeb8b3e43883750 373a27f29ea09973b148dd1420a358c1edea976d M	target/classes/META-INF/maven/br.ce.wcaquino.tasks/functional-test/pom.xml
+:100644 100644 ff3fa17a230cb12cecca2314227ecf9283b3925e f81765fdb6f38afdcf7083f148ced40848ca9281 M	target/test-classes/br/ce/wcaquino/tasks/functional/TasksTest.class

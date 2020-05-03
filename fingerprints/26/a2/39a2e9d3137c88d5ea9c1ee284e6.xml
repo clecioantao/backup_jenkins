@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-16 20:38:37.888 UTC</timestamp>
+  <original>
+    <name>Deploy_on_Container/com.example.maven-project:server</name>
+    <number>5</number>
+  </original>
+  <md5sum>26a239a2e9d3137c88d5ea9c1ee284e6</md5sum>
+  <fileName>com.example.maven-project:server.jar</fileName>
+  <usages>
+    <entry>
+      <string>Deploy_on_Container/com.example.maven-project:server</string>
+      <ranges>5</ranges>
+    </entry>
+    <entry>
+      <string>Deploy_on_Container</string>
+      <ranges>5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

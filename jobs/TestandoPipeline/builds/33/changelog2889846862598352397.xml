@@ -1,0 +1,10 @@
+commit 8a6c620ca106de6dca4f1d02fb7a50dd5b16e896
+tree eff1b422aec34dd308efb252d91cef6f0e63484f
+parent 1e94451bc17a78317bdcc2ba7d28c5f7bace481f
+author clecio <clecio.antao@gmail.com> 2020-05-02 14:44:58 -0300
+committer clecio <clecio.antao@gmail.com> 2020-05-02 14:44:58 -0300
+
+    Estrutura de Produção
+
+
+:100644 100644 f9cc42be8bef7408974cef083e63b31814289c48 c4987d1141deea2eb7a020926359ab1433851f9c M	Jenkinsfile

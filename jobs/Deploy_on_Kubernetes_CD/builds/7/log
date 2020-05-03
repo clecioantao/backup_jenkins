@@ -1,0 +1,37 @@
+Started by upstream project "[8mha:////4NG2fBxL8ngGoIK6t9S8YEc0MjeKSJQ4gEY9EVsLD6GEAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZZ/az8JH2X1IKc/Mr4/Lx479Kk1KK81JLU4nhnT30A9H3feNIAAAA=[0mDeploy_on_Kubernetes_CI" build number [8mha:////4H62hd56x8hU7nZ8GZ4A+KmHcXs+2V33PrdVS8jQ/BwKAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBjn9rPwkfZfUgpz8yvj8vHjv0qTUorzUktTieGdPfVMAsgSK09MAAAA=[0m5
+originally caused by:
+ Started by user [8mha:////4FHCZrbY86kmrO38llJbrl1wMls+PgNYdWOxp5kWtJotAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Deploy_on_Kubernetes_CD
+SSH: Connecting from host [jenkins]
+SSH: Connecting with configuration [ansible] ...
+SSH: EXEC: STDOUT/STDERR from command [ansible-playbook -i /opt/kubernetes/hosts /opt/kubernetes/kubernetes-valaxy-deployment.yml;
+ansible-playbook -i /opt/kubernetes/hosts /opt/kubernetes/kubernetes-valaxy-service.yml;] ...
+
+PLAY [Create pods using deployment] ********************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [192.168.0.47]
+
+TASK [create a deployment] *****************************************************
+changed: [192.168.0.47]
+
+PLAY RECAP *********************************************************************
+192.168.0.47               : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+PLAY [create service for deployment] *******************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [192.168.0.47]
+
+TASK [create a service] ********************************************************
+changed: [192.168.0.47]
+
+PLAY RECAP *********************************************************************
+192.168.0.47               : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+SSH: EXEC: completed after 11,608 ms
+SSH: Disconnecting configuration [ansible] ...
+SSH: Transferred 0 file(s)
+Finished: SUCCESS

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-20 10:22:16.220 UTC</timestamp>
+  <md5sum>f466deca39ff0409fe65ec68646d22a6</md5sum>
+  <fileName>net.bytebuddy:byte-buddy-1.10.6.jar</fileName>
+  <usages>
+    <entry>
+      <string>DeployBack</string>
+      <ranges>1-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

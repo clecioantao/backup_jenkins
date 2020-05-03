@@ -1,0 +1,17 @@
+Started at Sat May 02 11:12:25 BRT 2020
+Checking APITest
+Checking Deploy_on_Container
+Checking Deploy_on_Container_using_ansible
+Checking Deploy_on_Container_using_ansible_playbooks
+Checking Deploy_on_Docker
+Checking Deploy_on_Kubernetes_CD
+Checking Deploy_on_Kubernetes_CI
+Checking Deploy_to_Tomcat_Server
+Checking DeployBack
+Checking DeployFront
+Checking FunctionalTest
+Checking HelloPipeline
+Checking HelloWorld
+Checking My_First_Maven_Build
+Checking TestandoPipeline
+Finished at Sat May 02 11:12:25 BRT 2020. 9ms

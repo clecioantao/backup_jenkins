@@ -1,0 +1,11 @@
+commit 5a65230d10bc13731dc4d7c5f1ff427ac00c3bb1
+tree 34f353e5a13823e20c6103a665ca05bd21ffba43
+parent 99e0bb99ada5e4898cef5da4f1ad42a4468df993
+author clecio <clecio.antao@gmail.com> 2020-04-30 14:55:22 -0300
+committer clecio <clecio.antao@gmail.com> 2020-04-30 14:55:22 -0300
+
+    Adicionando grid - codigo wc
+
+
+:100644 100644 a9a27ab251f86fd46fa1f6c8521f9e47e201f326 71c7d34f9e861f7cb19c11aed38ce7aa5d7c14f6 M	src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java
+:100644 100644 e07c18b19477178e276710d74fb2f60bf25f750c 9d9be19a0d3a44f46191caad7e9160f2c172fee5 M	target/test-classes/br/ce/wcaquino/tasks/functional/TasksTest.class

@@ -1,0 +1,23 @@
+Started by user [8mha:////4FHCZrbY86kmrO38llJbrl1wMls+PgNYdWOxp5kWtJotAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/FunctionalTest
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/clecioantao/tasks-functional-test # timeout=10
+Fetching upstream changes from https://github.com/clecioantao/tasks-functional-test
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/clecioantao/tasks-functional-test +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 08d41f7df7264db04b7c4a525896355048dfaf0e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 08d41f7df7264db04b7c4a525896355048dfaf0e # timeout=10
+Commit message: "volta do teste chrome"
+ > git rev-list --no-walk 08d41f7df7264db04b7c4a525896355048dfaf0e # timeout=10
+[FunctionalTest] $ /opt/maven/bin/mvn clean test
+The JAVA_HOME environment variable is not defined correctly
+This environment variable is needed to run this program
+NB: JAVA_HOME should point to a JDK not a JRE
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,10 @@
+commit 7ce478abf4da5da09565fa4dfcdeecf01d4d4f66
+tree 9bd86c91fb2189ea0faeab098aa6bd522e23d313
+parent 364281419427da3e052050e9096bf79fd4017553
+author root <root@localhost.localdomain> 2020-04-20 15:50:58 -0300
+committer root <root@localhost.localdomain> 2020-04-20 15:50:58 -0300
+
+    Alterando index rodapé
+
+
+:100644 100644 c20ee563892a4b6ef71d5303d49494af4e52cd54 8fc4b7b8a5470b457e565d2b279d5b8cf92b2c72 M	src/main/resources/templates/index.html

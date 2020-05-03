@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-15 19:42:16.781 UTC</timestamp>
+  <original>
+    <name>My_First_Maven_Build/com.example.maven-project:webapp</name>
+    <number>1</number>
+  </original>
+  <md5sum>24c416d39ff1cc03653ddd032778c7e9</md5sum>
+  <fileName>com.example.maven-project:webapp.war</fileName>
+  <usages>
+    <entry>
+      <string>My_First_Maven_Build</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>My_First_Maven_Build/com.example.maven-project:webapp</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

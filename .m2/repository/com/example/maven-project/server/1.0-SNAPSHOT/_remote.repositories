@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 20 08:27:36 BRT 2020
+server-1.0-SNAPSHOT.jar>=
+server-1.0-SNAPSHOT.pom>=

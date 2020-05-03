@@ -1,0 +1,40 @@
+commit ec0fca73b620cb82c5307263c90026cf43837f65
+tree 353366223efa573af9d6a0655948daae31a046dc
+parent 9063bb0b29b33b376f4d5f029e39f23550bc18c0
+author clecio <clecio.antao@gmail.com> 2020-05-02 13:05:01 -0300
+committer clecio <clecio.antao@gmail.com> 2020-05-02 13:05:01 -0300
+
+    Estrutura de Produção
+
+
+:100644 100644 356551cd5eb9b8731011d17fbeeb2324d9ffc757 d9951592e7416fe74b57e38b83eda9e0b48ce9bb M	Jenkinsfile
+commit 9063bb0b29b33b376f4d5f029e39f23550bc18c0
+tree 80d871042e7fab9681b038d5559b8aef6310d8c7
+parent 8f1dd202bd26e6c965aa2a56d6a8cfb649aaf8fc
+author clecio <clecio.antao@gmail.com> 2020-05-02 12:58:18 -0300
+committer clecio <clecio.antao@gmail.com> 2020-05-02 12:58:18 -0300
+
+    Estrutura de Produção
+
+
+:100644 100644 e45ba2ab6b3a02b5bf28a65dd39371104585dbfd 356551cd5eb9b8731011d17fbeeb2324d9ffc757 M	Jenkinsfile
+commit 8f1dd202bd26e6c965aa2a56d6a8cfb649aaf8fc
+tree bd9a8d36d0b71c9bc2e06639180dde18735f2935
+parent d380738ff72c5f1303b91da37a9f7a6eb963c48d
+author clecio <clecio.antao@gmail.com> 2020-05-02 12:57:05 -0300
+committer clecio <clecio.antao@gmail.com> 2020-05-02 12:57:05 -0300
+
+    Estrutura de Produção
+
+
+:100644 100644 8760a76e97fba1328b5d9cc905e517f45c0cc561 e45ba2ab6b3a02b5bf28a65dd39371104585dbfd M	Jenkinsfile
+commit d380738ff72c5f1303b91da37a9f7a6eb963c48d
+tree 9393c3504cbb6bed636adfd0997f1e14444b097e
+parent 261eab123bde2c5f5474bcf520f935b7d7032492
+author clecio <clecio.antao@gmail.com> 2020-05-02 12:54:34 -0300
+committer clecio <clecio.antao@gmail.com> 2020-05-02 12:54:34 -0300
+
+    Estrutura de Produção
+
+
+:100644 100644 f27d70ea2c3a9bb6e0a44b521ef24b56d7b35e2f 8760a76e97fba1328b5d9cc905e517f45c0cc561 M	Jenkinsfile

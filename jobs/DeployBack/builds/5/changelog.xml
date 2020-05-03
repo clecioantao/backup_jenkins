@@ -1,0 +1,33 @@
+commit ec3d084bf6f9d4e770bec8b0f67d2c99b6f2e6d3
+tree 4ceb93016f4ff0c602e54e63f55e5e1bb6c7ddc2
+parent 5cd1028385a4579ae9573a659233098eca02358a
+author clecio <clecio.antao@gmail.com> 2020-04-28 08:45:39 -0300
+committer clecio <clecio.antao@gmail.com> 2020-04-28 08:45:39 -0300
+
+    Adicionando testes
+
+
+:000000 100644 0000000000000000000000000000000000000000 247111453cc75e382e5cac4ba9c0290684b0efe1 A	Dockerfile
+:000000 100644 0000000000000000000000000000000000000000 e0c3e7ce1932df87b579ceb3791160ee11c694af A	Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 6bf30e27eaaef6bb69630b6996895e3e8a6f07dc A	docker-compose.yml
+commit 5cd1028385a4579ae9573a659233098eca02358a
+tree 8f38a72b48fc57cb6e5b6c25d03cb840573ffd7a
+parent 7d9a3330753913ba05ccb5bf2769a433599db6ca
+author clecio <clecio.antao@gmail.com> 2020-04-28 08:42:12 -0300
+committer clecio <clecio.antao@gmail.com> 2020-04-28 08:42:12 -0300
+
+    Enviando com testes
+
+
+:100644 100644 176b13ed1b301f5a03ce1e5ef55e74afd0073b30 9240423f615cd4a6b2a4c2e2f99fe0af864b814e M	src/main/resources/application.properties
+commit 7d9a3330753913ba05ccb5bf2769a433599db6ca
+tree 740be7210c0d153b2039d7530b27d5e186e00e45
+parent 05f161b8ceffe57944429f7a7a521d1310630c3a
+author clecio <clecio.antao@gmail.com> 2020-04-22 06:46:03 -0300
+committer clecio <clecio.antao@gmail.com> 2020-04-22 06:46:03 -0300
+
+    Testes unitários
+
+
+:000000 100644 0000000000000000000000000000000000000000 5e2b7e3b6aa63ebb5d941ea98117d357e378be7b A	src/test/java/br/ce/wcaquino/taskbackend/controller/TaskControllerTest.java
+:000000 100644 0000000000000000000000000000000000000000 3039ab30398650754cb4aa4aa64fa1f8a6ea0c8a A	src/test/java/br/ce/wcaquino/taskbackend/utils/DateUtilsTest.java

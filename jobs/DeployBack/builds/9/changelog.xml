@@ -1,0 +1,11 @@
+commit a0a6e967bdc6e1530da8d344feb789e2d4a44f5e
+tree e504b991a40bdb0c2510f606b9f919956957dc8b
+parent 5b9f10cc1567f829e580a8a80f067badbc5a7dd5
+author clecio <clecio.antao@gmail.com> 2020-04-28 14:30:14 -0300
+committer clecio <clecio.antao@gmail.com> 2020-04-28 14:30:14 -0300
+
+    subindo testes
+
+
+:000000 100644 0000000000000000000000000000000000000000 5e2b7e3b6aa63ebb5d941ea98117d357e378be7b A	src/test/java/br/ce/wcaquino/taskbackend/controller/TaskControllerTest.java
+:000000 100644 0000000000000000000000000000000000000000 3039ab30398650754cb4aa4aa64fa1f8a6ea0c8a A	src/test/java/br/ce/wcaquino/taskbackend/utils/DateUtilsTest.java

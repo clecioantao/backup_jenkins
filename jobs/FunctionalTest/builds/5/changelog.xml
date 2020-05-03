@@ -1,0 +1,14 @@
+commit fb6635968b4da21cb51cd91a1d03b030daa144e1
+tree e5bda62c32b89b3d0016c40f34ed06390809fbf6
+parent 784845023b3bb8c63c3cddc037fd0b5903a43da5
+author clecio <clecio.antao@gmail.com> 2020-04-29 12:10:02 -0300
+committer clecio <clecio.antao@gmail.com> 2020-04-29 12:10:02 -0300
+
+    teste google-chrome
+
+
+:100644 100644 107d2c33d57ecb3cfa2735d81d68829fd81789d0 fa02d9445edb4e7b8fb246402c5e4d4803813a61 M	.classpath
+:000000 100644 0000000000000000000000000000000000000000 b83d22266ac8aa2f8df2edef68082c789727841d A	.gitignore
+:000000 100644 0000000000000000000000000000000000000000 40d8f8697d78772013408187e1dbff493a7782bf A	src/test/java/br/ce/wcaquino/tasks/functional/RemoteWebDriverriverDriver.java
+:100644 100644 0c48310ad71526d36a061abe7e2e03acddc1c228 af37c30bdf2fe9e56aa1be0ee37a8771700c7225 M	src/test/java/br/ce/wcaquino/tasks/functional/TasksTest.java
+:100644 100644 21f54633315a5a3e62a1b5650e23fa8ca9529ced 37b78dc9526d557a1b206ca3429e2bee724a7922 M	target/test-classes/br/ce/wcaquino/tasks/functional/TasksTest.class

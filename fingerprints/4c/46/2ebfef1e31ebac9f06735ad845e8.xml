@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-18 21:45:34.770 UTC</timestamp>
+  <original>
+    <name>Deploy_on_Kubernetes_CI/com.example.maven-project:server</name>
+    <number>6</number>
+  </original>
+  <md5sum>4c462ebfef1e31ebac9f06735ad845e8</md5sum>
+  <fileName>com.example.maven-project:server.jar</fileName>
+  <usages>
+    <entry>
+      <string>Deploy_on_Kubernetes_CI</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>Deploy_on_Kubernetes_CI/com.example.maven-project:server</string>
+      <ranges>6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

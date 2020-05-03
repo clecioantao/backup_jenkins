@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-16 10:39:21.95 UTC</timestamp>
+  <original>
+    <name>Deploy_to_Tomcat_Server/com.example.maven-project:server</name>
+    <number>3</number>
+  </original>
+  <md5sum>1d228b178412cc3e4567ef17bb241d28</md5sum>
+  <fileName>com.example.maven-project:server.jar</fileName>
+  <usages>
+    <entry>
+      <string>Deploy_to_Tomcat_Server</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>Deploy_to_Tomcat_Server/com.example.maven-project:server</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
